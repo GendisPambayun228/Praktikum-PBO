@@ -1,0 +1,9 @@
+package com.gendispambayun.modul06.guided.guided4;
+
+class B extends A {
+
+    public void tampilkanKeLayar() {
+        super.tampilkanKeLayar(); // Method milik superclas dipanggil
+        System.out.println("Method milik class B dipanggil...");
+    }
+}
